@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Booster - Enhance Your Images Free</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Photo Booster</h1>
+    <p>Enhance Your Images to HD Quality for Free!</p>
+  </header>
+
+  <main>
+    <div class="upload-section">
+      <input type="file" id="uploadInput" accept="image/*">
+      <button onclick="previewImage()">Upload Photo</button>
+    </div>
+
+    <div id="previewContainer">
+      <h3>Uploaded Photo:</h3>
+      <img id="uploadedImage" src="" alt="Uploaded Image Preview">
+    </div>
+
+    <div class="action-buttons">
+      <button onclick="enhanceImage()">Enhance Now</button>
+    </div>
+
+    <div id="enhancedContainer">
+      <h3>Enhanced Photo:</h3>
+      <img id="enhancedImage" src="" alt="Enhanced Image Preview">
+      <br>
+      <a id="downloadBtn" href="#" download="Enhanced-Photo.jpg">Download HD Photo</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Photo Booster | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
